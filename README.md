@@ -1,7 +1,7 @@
 # antiradio
 This is a simulator for an audio art project. 
 
-##Design Goals
+## Design Goals
 
 Radios convert signals to sound differently from how computers convert files to sound. 
 In a digital environment, sound is stored according to rules defined by a codec. 
@@ -19,3 +19,11 @@ This is a much more complicated and dynamic filter than a simple band-pass, of c
 This project aims to execute this vision in real-time. 
 This repository will serve as a proof of concept and testing ground for me to explore different codecs, DACs, and ways of creating fast audio filters. 
 The final version will be a physical machine, so that it can make use of actual radio broadcasts in Seattle and be displayed publically. 
+
+### Libraries Used
+
+So far, I want to give glicol a shot. It looks intuitive. 
+
+### Timeline
+
+This project was started October 1, 2024. Aiming for a functional prototype of a signal filter by December 25th. 
